@@ -8,14 +8,14 @@
   <!-- LoginServlet Configuration -->
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>com.validPasswordServlet.ValidPasswordServlet</servlet-class>
+        <servlet-class>com.loginServlet.LoginServlet</servlet-class>
         <init-param>
             <param-name>user</param-name>
             <param-value>Amit</param-value>
         </init-param>
         <init-param>
             <param-name>password</param-name>
-            <param-value>Amit9058#</param-value>
+            <param-value>Amit9058</param-value>
         </init-param>
     </servlet>
 
@@ -23,4 +23,6 @@
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/LoginServlet</url-pattern>
     </servlet-mapping>
+  
 </web-app>
+
