@@ -5,17 +5,17 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   
-  <!-- LoginServlet Configuration -->
+   <!-- LoginServlet Configuration -->
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>com.validPasswordServlet.ValidPasswordServlet</servlet-class>
+        <servlet-class>com.validLoginServlet.ValidLoginServlet</servlet-class>
         <init-param>
             <param-name>user</param-name>
             <param-value>Amit</param-value>
         </init-param>
         <init-param>
             <param-name>password</param-name>
-            <param-value>Amit9058#</param-value>
+            <param-value>Amit9058</param-value>
         </init-param>
     </servlet>
 
